@@ -46,7 +46,7 @@ The following priority is taken for each parameter (using `_.extend`)
 
  3. Environment variables
 
-For instance, let's say you call `nscabinet({ account : '1234' })`. Even if no e-mail is supplied, we also look up in the sources listed above for it. You may set a `nsconfig.json` for the project without the password, setting the latter machine-wise using an environment variable.
+For instance, let's say you call `nscabinet({ account : '1234' })`. Even if no e-mail is supplied, we also look up in the sources listed above for it. You may set a `nsconfig.json` for the project without the password, setting the latter machine-wide using an environment variable.
 
 
 ## Common parameters
